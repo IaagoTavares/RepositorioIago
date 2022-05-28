@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h3>//CALCULADORA//</h3>
+
+    <form name="form1" id="form1">
+        DIGITE OS NÚMEROS E CLIQUE NO SINAL DA OPERAÇÃO:
+        <input type="number" id="n1" name="n1" value="" step="0.1" required>
+        <input type="number" id="n2" name="n2" value="" step="0.1" required>
+        <input type="button" onclick="soma()" value="+">
+        <input type="button" onclick="subtracao();" value="-">
+        <input type="button" onclick="divisao();" value="/">
+        <input type="button" onclick="multiplicacao();" value="x">
+        <input type="button" onclick="inteiro();" value="//">
+        <input type="button" onclick="resto();" value="%">
+        <!-- <button name="chama" onclick="ex01();" >BOTÂO CHAMA</button> -->
+    </form>
+    <div id="vem"></div>
+    <div id="aqui"></div>
+    <script src="script.js"></script>
+</body>
+</html>
