@@ -1,4 +1,6 @@
-﻿/* 
+﻿
+
+/* 
 =======================
 Declaração de variáveis
 =======================
@@ -19,10 +21,10 @@ Event Listener
    verifiquemos se a página foi carregada para só então chamar
    a função CalcAddAndShow, pois ela só funcionará depois da 
    criação da div de resultado, com id "result" */
-$(document).ready( function() {
-    var x0 = 10, y0 = 20;
-    CalcAddAndShow(x0, y0);
-});
+//  $(document).ready( function() {
+//      var x0 = 10, y0 = 20;
+//      CalcAddAndShow(x0, y0);
+//  });
 
 
 

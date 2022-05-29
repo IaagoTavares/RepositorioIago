@@ -85,14 +85,8 @@ app.post('/delete', urlencodedParser, (req, res) => {
 
 /* Inicia o servidor */
 app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
-
-// alert("Seja bem-vindo ao currículo do Iago")
-
-// $(document).ready(function(){
-//     $("p").on("click", function(){
-//       $(this).hide();
-//     });
-//   });
+	console.log(`Server running at http://${hostname}:${port}/`);
+	
+  });
+  
 
