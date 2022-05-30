@@ -16,5 +16,7 @@ function TestGET(){
     xhttp.send();//A execução do script pára aqui até a requisição retornar do servidor
 
     $(getResDiv).append("<br />" + xhttp.responseText);
+    $(getResDiv).append("<br />Seleção do <i>title</i>: " + JSON.parse(xhttp.response).title);
+
     // alert(xhttp.responseText);
 }
