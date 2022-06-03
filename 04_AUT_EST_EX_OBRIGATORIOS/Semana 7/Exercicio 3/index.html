@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h3>Crie uma página web na qual o usuário deva escrever em um campo de texto o número de seu celular no formato "(XX)XXXXX-XXXX" e, caso o formato não seja respeitado, o usuário seja notificado.
+
+    </h3>
+
+    <form name="form1" id="form1">
+        INSIRA O NÚMERO:
+        <input type="text" name="telefone" id="telefone" size="20" maxlength="15" onkeypress="mascara(this)"> 
+        <input type="button" onclick="verificar()" value="VERIFICAR">
+        
+
+        <!-- <button name="chama" onclick="ex01();" >BOTÂO CHAMA</button> -->
+    </form>
+    <div id="vem"></div>
+    <div id="aqui"></div>
+    <script src="script.js"></script>
+</body>
+</html>

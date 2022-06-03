@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h3>Crie uma página web que permita ao usuário informar a quantidade de pessoas (número inteiro inteiro) e o período (Noturno ou Diurno) e, quando o usuário indicar que deseja que o cálculo seja realizado (pressionar um botão), mostre o total da compra de acordo com as condições abaixo:
+
+        Se vôo diurno, 200 por pessoa. Se mais do que 50 pessoas, desconto de 40% por pessoa.
+        Se vôo noturno, 100 por pessoa. Se mais do que 50 pessoas, desconto de 20% por pessoa.
+
+    </h3>
+
+    <form name="form1" id="form1">
+        INSIRA A QUANTIDADE DE PESSOAS E O HORÁRIO
+        <input type="number" id = "n1" name="n1" value="" step="0.1" required>
+        <input type="text" id = "n2" placeholder="DIA OU NOITE" list="faixa">
+        <datalist id="faixa">
+          <option value=""></option>
+          <option id = "day" >DIA</option>
+          <option id = "night" >NOITE</option>
+        </datalist>
+        <input type="button" onclick="calcular()" value="CALCULAR">
+        
+
+        <!-- <button name="chama" onclick="ex01();" >BOTÂO CHAMA</button> -->
+    </form>
+
+    <div id="vem"></div>
+    <div id="aqui"></div>
+    <script src="script.js"></script>
+</body>
+</html>

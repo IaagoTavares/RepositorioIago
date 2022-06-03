@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h3>Crie uma página web na qual o usuário possa informar a quantidade de um produto em um valor inteiro e, por meio de dois botões, um que adiciona uma unidade e um que subtraia uma unidade, o valor do campo da quantidade possa ser manipulado.</h3>
+
+    <form name="form1" id="form1">
+        DIGITE A QUANTIDADE:
+        <input type="text" id="n1" name="n1" value="" step="0.1" required>
+        <input type="button" onclick="aumentar()" value="+">
+        <input type="button" onclick="diminuir();" value="-">
+
+        <!-- <button name="chama" onclick="ex01();" >BOTÂO CHAMA</button> -->
+    </form>
+    <div id="vem"></div>
+    <div id="aqui"></div>
+    <script src="script.js"></script>
+</body>
+</html>

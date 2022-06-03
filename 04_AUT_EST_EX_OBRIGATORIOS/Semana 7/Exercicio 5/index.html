@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h3>Crie uma página web na qual o usuário informe a quantidade de alunos e a nota de cada aluno na prova e no trabalho. Quando o ususário finalizar o fornecimento de todas as informações e solicitar o cálculo, mostre:
+
+        a média de cada aluno, calculada considerando peso 2 para a prova e 3 para o trabalho;
+        a média geral, considerando todos os alunos;
+        a média artiméticas das notas de prova;
+        a média artiméticas das notas de trabalho;
+        a menor e a maior notas de prova;
+        a menor e a maior notas de trabalho. Obs: note que a quantidade de campos para inserção das notas de cada aluno depende da quantidade de alunos informada.</h3>
+
+    <form name="form1" id="form1">
+        
+        ALUNO    <input type="text" id="n1" name="n1" value="" step="0.1" required><br><br>
+        PROVA    <input type="number" id="n2" name="n2" value="" step="0.1" required><br><br>
+        TESTE    <input type="number" id="n3" name="n3" value="" step="0.1" required><br><br>
+
+        <input type="button" onclick="inserir()" value="INSERIR">
+        <input type="button" onclick="finalizar()" value="FINALIZAR">
+        
+
+        <!-- <button name="chama" onclick="ex01();" >BOTÂO CHAMA</button> -->
+    </form>
+    <div id="vem"></div>
+    <div id="aqui"></div>
+    <script src="script.js"></script>
+</body>
+</html>
