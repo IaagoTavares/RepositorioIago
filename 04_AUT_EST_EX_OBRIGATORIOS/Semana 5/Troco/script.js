@@ -51,3 +51,5 @@ document.getElementById('not1').innerHTML = "NOTAS DE 1: " + notasum
 
 
 }
+
+

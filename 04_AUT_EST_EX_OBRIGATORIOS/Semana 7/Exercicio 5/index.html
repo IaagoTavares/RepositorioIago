@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <title>Calculadora Média</title>
 </head>
 <body>
     <h3>Crie uma página web na qual o usuário informe a quantidade de alunos e a nota de cada aluno na prova e no trabalho. Quando o ususário finalizar o fornecimento de todas as informações e solicitar o cálculo, mostre:
@@ -20,16 +20,38 @@
         
         ALUNO    <input type="text" id="n1" name="n1" value="" step="0.1" required><br><br>
         PROVA    <input type="number" id="n2" name="n2" value="" step="0.1" required><br><br>
-        TESTE    <input type="number" id="n3" name="n3" value="" step="0.1" required><br><br>
+        TRABALHO    <input type="number" id="n3" name="n3" value="" step="0.1" required><br><br>
 
         <input type="button" onclick="inserir()" value="INSERIR">
-        <input type="button" onclick="finalizar()" value="FINALIZAR">
+        <input type="button" onclick="calculo()" value="CALCULAR">
         
-
-        <!-- <button name="chama" onclick="ex01();" >BOTÂO CHAMA</button> -->
     </form>
-    <div id="vem"></div>
-    <div id="aqui"></div>
+
+    <br>
+    <div id="media_geral"></div>
+    <div id="media_prova"></div>
+    <div id="media_trabalho"></div>
+    <div id="maior_prova"></div>
+    <div id="menor_prova"></div>
+    <div id="maior_trabalho"></div>
+    <div id="menor_trabalho"></div>
+    <br>
+
+    <div class = "content">
+        <table border = "1" > 
+            <thead>
+                <th>ID</th>
+                <th>Nome Aluno</th>
+                <th>Nota Prova</th>
+                <th>Nota Trabalho</th>
+                <th>Média Aluno</th>
+            </thead>
+            <tbody id ="tbody">
+            </tbody>
+
+        </table>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
