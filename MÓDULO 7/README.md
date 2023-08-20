@@ -1,16 +1,8 @@
-# Iago Tavares
+
 
 O objetivo desse repositório é entregar uma aplicação web integrada com a AWS, ou seja, utilizando as ferramentas de computação em nuvem e banco de dados. 
 
-Minhas entregas estão definidas aqui:
-
-
-
-Posteriormente criei um banco de dados em mysql para armazenar as informações do site com o uso do serviço rds
-
-Por fim eu instalei um servidor web na minha na instancia ec2 criada anteriormente. Para isso foi necessario 
-instalar um servidor web apache com php e maria db
-Após realizar as devidas habilitações, eu inclui as credenciais do banco de dados e o codigo em php do front-end
+# Passo a passo
 
 ## Criar uma instância no EC2
 
@@ -26,5 +18,7 @@ Nessa última etapa instalamos um servidor web na instância EC2 que foi criada 
 
 
 # Código
+
+O código da pasta webAppAws.php implementa um sistema básico de gerenciamento de usuários com funcionalidades de adição de usuários através de um formulário HTML e exibição dos usuários existentes em uma tabela HTML. As funções são usadas para verificar e criar a tabela de usuários, enquanto as informações do banco de dados são protegidas contra injeção de SQL usando funções de escape.
 
 
